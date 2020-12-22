@@ -25,6 +25,7 @@ import { list as whitelist } from "./metafiles/whitelist"
 /**
  * @type {Config}
  */
+console.log(whitelist)
 const config = {
 
 	/**
@@ -33,13 +34,13 @@ const config = {
 	 * the person who can promote and demote admins,
 	 * and add the bot to groups.
 	 */
-	master: 123456789,
+	master: process.env.MASTER_ID,
 
 	/**
 	 * @type {!string}
 	 * Telegram Bot token obtained from https://t.me/BotFather.
 	 */
-	token: '',
+	token: process.env.BOT_TOKEN,
 
 
 	chats: {
@@ -128,7 +129,7 @@ const config = {
 	 */
 	groupsInlineKeyboard: [],
 
-	numberOfWarnsToBan: 3,
+	numberOfWarnsToBan: process.env.NUM_WARNS_TO_BAN,
 
 	/**
 	 * @type {string[]}
