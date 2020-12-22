@@ -1,5 +1,6 @@
 // @ts-check
 'use strict';
+import { list as whitelist } from "./metafiles/whitelist"
 
 /**
  * @typedef { import('./typings/config').Config } Config
@@ -111,7 +112,7 @@ const config = {
 	 * For channels and groups to stop warning users for them.
 	 * Pass false to whitelist all links and channels.
 	 */
-	excludeLinks: [],
+	excludeLinks: whitelist,
 
 	/**
 	 * @type {ms}
