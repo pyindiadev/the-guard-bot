@@ -129,7 +129,7 @@ const config = {
 	 */
 	groupsInlineKeyboard: [],
 
-	numberOfWarnsToBan: process.env.NUM_WARNS_TO_BAN,
+	numberOfWarnsToBan: process.env.NUM_WARNS_BAN,
 
 	/**
 	 * @type {string[]}
