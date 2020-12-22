@@ -33,10 +33,12 @@
   "homepage": "https://github.com/TheDevs-Network/the-guard-bot/",
   "dependencies": {
     "dedent-js": "^1.0.1",
+    "dotenv": "^8.2.0",
     "jspack": "0.0.4",
     "millisecond": "^0.1.2",
     "nedb-promise": "^2.0.1",
     "node-fetch": "^2.2.0",
+    "package.json": "^2.0.1",
     "ramda": "^0.25.0",
     "require-directory": "^2.1.1",
     "spamwatch": "^0.2.0",

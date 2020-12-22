@@ -3,7 +3,8 @@
 
 process.chdir(__dirname);
 require('ts-node').register({ transpileOnly: true });
-
+const dotenv = require('dotenv');
+dotenv.config();
 // Utils
 const { logError } = require('./utils/log');
 
