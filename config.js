@@ -25,7 +25,6 @@ import { list as whitelist } from "./metafiles/whitelist"
 /**
  * @type {Config}
  */
-console.log(whitelist)
 const config = {
 
 	/**
