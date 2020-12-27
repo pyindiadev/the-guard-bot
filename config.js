@@ -128,7 +128,7 @@ const config = {
 	 */
 	groupsInlineKeyboard: [],
 
-	numberOfWarnsToBan: parseInt(process.env.NUM_WARNS_TO_BAN),
+	numberOfWarnsToBan: parseInt(process.env.NUM_WARNS_BAN),
 
 	/**
 	 * @type {string[]}
